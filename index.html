@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Arthur's Portfolio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/devicon.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<!-- <link rel="shortcut icon" href="favicon.png" > -->
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+	         <li><a class="smoothscroll" href="#resume">Skills</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Arthur Wang.</h1>
+            <h3>I'm a <span>software developer</span> who loves to 
+               <span>try new things</span> and <span>tackle new challenges</span>. 
+               Innovation is my passion. Let's <span>start scrolling</span>
+            and learn more <span>about me</span>.</h3>
+            <hr />
+            <ul class="social">
+               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+               <li><a href="https://github.com/StarryNightWZC"><i class="fa fa-github"></i></a></li>
+               <li><a href="mailto:zichuan.wang.92@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#portfolio"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+      
+      <!-- web projects -->
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Full Stack Web Application Projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/GroceryShop.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Online Grocery Shopping Site</h5>
+                              <p>Javascript, Angular, Node.js, Express.js, MongoDB, Bootstrap, AWS</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/BlogShare.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Blog Sharing Online Forum</h5>
+                              <p>Javascript, Node.js, MongoDB, Bootstrap, Heroku</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/Covid19Blog.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Covid19 Help Exchange Online Forum</h5>
+                              <p>Python, Flask, Bootstrap, AWS</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/GroceryShop.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Online Grocery Shopping Site</h4>
+			      <p>This is a online grocery shopping site which allows users to pick item and place order. Admin user also has the ability
+                  to edit existing product or create new product. Admin credential of <span style="color:#11ABB0;">admin@admin.com/admin</span>
+                  can be used to test admin functionality.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript, Angular, Node.js, Express.js, MongoDB, Bootstrap, AWS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://gshop-env.eba-esthdzam.us-east-2.elasticbeanstalk.com/">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Cloud-based-Ecommerce-Web-Application" class="a-leftmargin">Code</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/BlogShare.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Blog Sharing Online Forum</h4>
+			      <p>This is a blog sharing site which allows users to post blog as well as commenting on other people's blog. Credential of
+                  <span style="color:#11ABB0;">Arthur/1234</span> can be used for testing. You can register your own account as well.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript, Node.js, MongoDB, Bootstrap, Heroku</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://floating-caverns-69485.herokuapp.com/">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Blog-Sharing-Web-Application" class="a-leftmargin">Code</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/Covid19Blog.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Covid19 Help Exchange Online Forum</h4>
+			      <p>The forum provides help exchange features with filtering functionality based on type of help, availability time window and physical distance between help provider and help requestor.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, Flask, Bootstrap, AWS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://aipizeyhpd.execute-api.us-east-1.amazonaws.com/dev">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Serverless_Web_Forum_for_Help_Exchange" class="a-leftmargin">Code</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         
+
+
+      </div> <!-- row End -->
+
+      <!-- mobile projects -->
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Android Mobile Application Projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-halves s-bgrid-halves cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/instagram.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Instagram Mobile Clone</h5>
+                              <p>Java, Android, Firebase</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/fittune.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Fit-tune</h5>
+                              <p>Java, Android, Firebase</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/instagram.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Instagram Mobile Clone</h4>
+			      <p>This Android app allows users to browse and comment on other people's post as well as create your own post.
+                  It also provides auto-hashtag functionality to tag object in the view automatically.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Java, Android, Firebase</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="/demo/instagramclone.webm">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Instagram-like-android-app" class="a-leftmargin">Code</a>
+               <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/fittune.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Fit-tune</h4>
+			      <p>This Android fitness app adjusts music tempo based on user's workout intensity. It also provides features
+                  such as workout statistics, workout history and leaderboard.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Java, Android, Firebase</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.youtube.com/watch?v=8ZWIexJGI3A&feature=emb_logo">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Fit-Tune" class="a-leftmargin">Code</a>
+               <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+      </div> <!-- row End -->
+
+      <!-- DS projects -->
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Data Science Projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/DSSurvey.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Salary Predication based on 2019 Kaggle Data Science Survey</h5>
+                              <p>Python, scikit-learn</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/CanadianElection.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Sentiment Analysis of 2019 Canada Election Public Opinion on Twitter</h5>
+                              <p>Python, scikit-learn</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-09" title="">
+                        <img alt="" src="images/portfolio/CovidResearch.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>COVID19 Symptom Analysis based on Kaggle Open Research Dataset</h5>
+                              <p>Python, scikit-learn</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/DSSurvey.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Salary Predication based on 2019 Kaggle Data Science Survey</h4>
+			      <p>Supervised machine learning algorithms are used to predict salary based on Kaggle Data Science quesionaire result.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, scikit-learn</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/StarryNightWZC/Kaggle_DS_Survey_Salary_Analysis/blob/master/wang_1000474300_assignment1.ipynb">Jupyter Notebook</a>
+               <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/CanadianElection.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Sentiment Analysis of 2019 Canada Election Public Opinion on Twitter</h4>
+			      <p>Natural language preprocessing techniques are used to conduct sentiment analysis of 2019 Canadian Election
+                  related tweets to infer the reason behind Liberal party's success.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, scikit-learn</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/StarryNightWZC/Sentiment_Analysis_of_2019_Canada_Election_Tweets/blob/master/wang_1000474300_assignment2.ipynb">Jupyter Notebook</a>
+               <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-09" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/CovidResearch.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>COVID19 Symptom Analysis based on Kaggle Open Research Dataset</h4>
+			      <p>
+                  Utilized both supervised and unsupervised machine learning algorithms to derived insights about policy & guidance to tackle the outbreak based on COVID19 symptoms analysis.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, scikit-learn</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/StarryNightWZC/COVID19_Symptom_Analysis/blob/master/wang_1000474300_finalproject.ipynb">Jupyter Notebook</a>
+               <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <!-- <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div> -->
+         <!-- spacer for one columns at left -->
+         <div class="one columns"></div>
+
+         <div class="ten columns">
+            <h3 style="text-align: center; padding-bottom: 2rem;">Languages</h3>
+            <div class="bgrid-sixths s-bgrid-sixths cf">
+               <div class="columns">
+                  <img src="images/skills/javascript-plain.svg">
+                  <p class="icon-text">Javascript</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/java-plain.svg">
+                  <p class="icon-text">Java</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/python-plain.svg">
+                  <p class="icon-text">Python</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/typescript-plain.svg">
+                  <p class="icon-text">Typescript</p>
+               </div>
+               <!-- <div class="columns">
+                  <img src="images/skills/cplusplus-plain.svg">
+                  <p class="icon-text">C++</p>
+               </div> -->
+               <div class="columns">
+                  <img src="images/skills/html5-plain.svg">
+                  <p class="icon-text">HTML5</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/css3-plain.svg">
+                  <p class="icon-text">CSS3</p>
+               </div>
+            </div>
+
+            <h3 style="text-align: center; padding-bottom: 2rem;">Libraries/Frameworks</h3>
+            <div class="bgrid-sixths s-bgrid-sixths cf">
+               <div class="columns">
+                  <img src="images/skills/nodejs-plain.svg">
+                  <p class="icon-text">Node.js</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/express-original.svg">
+                  <p class="icon-text">Express.js</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/angularjs-plain.svg">
+                  <p class="icon-text">Angular</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/pocoo_flask-icon.svg">
+                  <p class="icon-text">Flask</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/mongodb-plain.svg">
+                  <p class="icon-text">MongoDB</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/mysql-plain.svg">
+                  <p class="icon-text">MySQL</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/react-original.svg">
+                  <p class="icon-text">React</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/bootstrap-plain.svg">
+                  <p class="icon-text">Bootstrap</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/RxJs_plain.svg">
+                  <p class="icon-text">RxJs</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/jquery-plain.svg">
+                  <p class="icon-text">jQuery</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/tensorflow-icon.svg">
+                  <p class="icon-text">TensorFlow</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/opencv-icon.svg">
+                  <p class="icon-text">OpenCV</p>
+               </div>
+            </div>
+
+            <h3 style="text-align: center; padding-bottom: 2rem;">Technologies/Tools</h3>
+            <div class="bgrid-sixths s-bgrid-sixths cf">
+               <div class="columns">
+                  <img src="images/skills/amazonwebservices-original.svg">
+                  <p class="icon-text">AWS</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/android-plain.svg">
+                  <p class="icon-text">Android</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/git-plain.svg">
+                  <p class="icon-text">Git</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/firebase-icon.svg">
+                  <p class="icon-text">Firebase</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/heroku-plain.svg">
+                  <p class="icon-text">Heroku</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/gradle-plain.svg">
+                  <p class="icon-text">Gradle</p>
+               </div>
+               <!-- <div class="columns">
+                  <img src="images/skills/html5-plain.svg">
+                  <p class="icon-text">HTML5</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/css3-plain.svg">
+                  <p class="icon-text">CSS3</p>
+               </div> -->
+            </div>
+
+         </div> <!-- main-col end -->
+         
+         <!-- spacer for one columns at right -->
+         <div class="one columns"></div>
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+               <li><a href="https://github.com/StarryNightWZC"><i class="fa fa-github"></i></a></li>
+               <li><a href="mailto:zichuan.wang.92@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>

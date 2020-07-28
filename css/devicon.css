@@ -1,0 +1,19 @@
+.columns > img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.columns > .icon-text {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.columns > p {
+    text-align: center;
+}
+
+.a-leftmargin {
+    margin-left: 24px;
+}
