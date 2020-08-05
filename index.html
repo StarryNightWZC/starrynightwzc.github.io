@@ -48,7 +48,7 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a class="smoothscroll" href="#resume">Skills</a></li>
-            <li><a href="images/skills/ArthurWang_Resume.pdf">Resume</a></li>
+            <!-- <li><a href="images/skills/ArthurWang_Resume.pdf">Resume</a></li> -->
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -110,12 +110,29 @@
                      </a>
 
                   </div>
-          		</div> <!-- item end -->
+                </div> <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/LibraryManager.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Online Library Managing Application</h5>
+                              <p>C#, ASP.NET, SQL Server, Bootstrap, Azure</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
+                     <a href="#modal-03" title="">
                         <img alt="" src="images/portfolio/BlogShare.jpeg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -128,25 +145,6 @@
 
                   </div>
           		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/Covid19Blog.jpeg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Covid19 Help Exchange Online Forum</h5>
-                              <p>Python, Flask, Bootstrap, AWS</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-               </div> <!-- item end -->
-
-
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -175,9 +173,31 @@
 		         <a href="#" class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-01 End -->
-
+         </div><!-- modal-01 End -->
+         
          <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/LibraryManager.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Online Library Managing Application</h4>
+			      <p>This is an online library Management site which allows users to borrow and return books from
+                  library. Admin user also has the ability to add new book and manage regular user account status. 
+                  Credential of <span style="color:#11ABB0;">Arthur/123456</span> 
+                  can be used for testing. You can register your own account as well.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>C#, ASP.NET, SQL server, Bootstrap, Azure</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://librarymanager20200804195852.azurewebsites.net/">Demo</a>
+               <a href="https://github.com/StarryNightWZC/Online-Library-Manager-Application" class="a-leftmargin">Code</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
 
 		      <img class="scale-with-grid" src="images/portfolio/BlogShare.jpeg" alt="" />
 
@@ -195,28 +215,9 @@
 		         <a href="#" class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/Covid19Blog.jpeg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Covid19 Help Exchange Online Forum</h4>
-			      <p>The forum provides help exchange features with filtering functionality based on type of help, availability time window and 
-                  physical distance. Credential of <span style="color:#11ABB0;">mike@gmail.com/123456</span> 
-                  can be used for testing. You can register your own account as well.
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>Python, Flask, Bootstrap, AWS</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://aipizeyhpd.execute-api.us-east-1.amazonaws.com/dev">Demo</a>
-               <a href="https://github.com/StarryNightWZC/Serverless_Web_Forum_for_Help_Exchange" class="a-leftmargin">Code</a>
-		         <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
-
 	      </div><!-- modal-03 End -->
+
+         
 
          
 
@@ -476,18 +477,22 @@
                   <p class="icon-text">Javascript</p>
                </div>
                <div class="columns">
-                  <img src="images/skills/java-plain.svg">
-                  <p class="icon-text">Java</p>
+                  <img src="images/skills/csharp-plain.svg">
+                  <p class="icon-text">C#</p>
                </div>
                <div class="columns">
                   <img src="images/skills/python-plain.svg">
                   <p class="icon-text">Python</p>
                </div>
                <div class="columns">
+                  <img src="images/skills/java-plain.svg">
+                  <p class="icon-text">Java</p>
+               </div>
+               <!-- <div class="columns">
                   <img src="images/skills/typescript-plain.svg">
                   <p class="icon-text">Typescript</p>
                </div>
-               <!-- <div class="columns">
+               <div class="columns">
                   <img src="images/skills/cplusplus-plain.svg">
                   <p class="icon-text">C++</p>
                </div> -->
@@ -512,12 +517,20 @@
                   <p class="icon-text">Express.js</p>
                </div>
                <div class="columns">
+                  <img src="images/skills/dot-net-plain.svg">
+                  <p class="icon-text">ASP.NET</p>
+               </div>
+               <div class="columns">
                   <img src="images/skills/angularjs-plain.svg">
                   <p class="icon-text">Angular</p>
                </div>
                <div class="columns">
                   <img src="images/skills/pocoo_flask-icon.svg">
                   <p class="icon-text">Flask</p>
+               </div>
+               <div class="columns">
+                  <img src="images/skills/react-original.svg">
+                  <p class="icon-text">React</p>
                </div>
                <div class="columns">
                   <img src="images/skills/mongodb-plain.svg">
@@ -528,8 +541,8 @@
                   <p class="icon-text">MySQL</p>
                </div>
                <div class="columns">
-                  <img src="images/skills/react-original.svg">
-                  <p class="icon-text">React</p>
+                  <img src="images/skills/sql-server.svg">
+                  <p class="icon-text">SQL Server</p>
                </div>
                <div class="columns">
                   <img src="images/skills/bootstrap-plain.svg">
@@ -543,14 +556,14 @@
                   <img src="images/skills/jquery-plain.svg">
                   <p class="icon-text">jQuery</p>
                </div>
-               <div class="columns">
+               <!-- <div class="columns">
                   <img src="images/skills/tensorflow-icon.svg">
                   <p class="icon-text">TensorFlow</p>
                </div>
                <div class="columns">
                   <img src="images/skills/opencv-icon.svg">
                   <p class="icon-text">OpenCV</p>
-               </div>
+               </div> -->
             </div>
 
             <h3 style="text-align: center; padding-bottom: 2rem;">Technologies/Tools</h3>
@@ -560,8 +573,8 @@
                   <p class="icon-text">AWS</p>
                </div>
                <div class="columns">
-                  <img src="images/skills/android-plain.svg">
-                  <p class="icon-text">Android</p>
+                  <img src="images/skills/microsoft_azure-icon.svg">
+                  <p class="icon-text">Azure</p>
                </div>
                <div class="columns">
                   <img src="images/skills/git-plain.svg">
@@ -576,10 +589,14 @@
                   <p class="icon-text">Heroku</p>
                </div>
                <div class="columns">
+                  <img src="images/skills/android-plain.svg">
+                  <p class="icon-text">Android</p>
+               </div>
+               <!-- <div class="columns">
                   <img src="images/skills/gradle-plain.svg">
                   <p class="icon-text">Gradle</p>
                </div>
-               <!-- <div class="columns">
+               <div class="columns">
                   <img src="images/skills/html5-plain.svg">
                   <p class="icon-text">HTML5</p>
                </div>
